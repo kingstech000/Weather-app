@@ -1,0 +1,46 @@
+{
+    "coord": {
+        "lon": 7.4625,
+        "lat": 9.0631
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 309.38,
+        "feels_like": 306.78,
+        "temp_min": 309.38,
+        "temp_max": 309.38,
+        "pressure": 1008,
+        "humidity": 13,
+        "sea_level": 1008,
+        "grnd_level": 959
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 0.76,
+        "deg": 213,
+        "gust": 1.27
+    },
+    "clouds": {
+        "all": 67
+    },
+    "dt": 1706624435,
+    "sys": {
+        "type": 1,
+        "id": 1173,
+        "country": "NG",
+        "sunrise": 1706593887,
+        "sunset": 1706636101
+    },
+    "timezone": 3600,
+    "id": 2352778,
+    "name": "Abuja",
+    "cod": 200
+}
