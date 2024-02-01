@@ -66,7 +66,6 @@ class _LocationScreenState extends State<LocationScreen> {
         constraints: const BoxConstraints.expand(),
         child: SafeArea(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               Row(
@@ -102,6 +101,7 @@ class _LocationScreenState extends State<LocationScreen> {
                   ),
                 ],
               ),
+              SizedBox(height: 40,),
               Padding(
                 padding: EdgeInsets.only(right: 15),
                 child: Text(
@@ -124,14 +124,14 @@ class _LocationScreenState extends State<LocationScreen> {
                   ],
                 ),
               ),
-              Padding(
-                padding: EdgeInsets.only(right: 15.0),
-                child: Text(
-                  "$interpretation",
-                  textAlign: TextAlign.center,
-                  style: kMessageTextStyle,
-                ),
-              ),
+              // Padding(
+              //   padding: EdgeInsets.only(right: 15.0),
+              //   child: Text(
+              //     "$interpretation",
+              //     textAlign: TextAlign.center,
+              //     style: kMessageTextStyle,
+              //   ),
+              // ),
             ],
           ),
         ),
